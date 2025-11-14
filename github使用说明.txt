@@ -1,0 +1,8 @@
+1.登录github网站→Repositories→新建仓库（New）→添加项目名并创建
+2.添加git公钥$ ssh-keygen -t rsa -C "test"（test名字是随便起的）
+3.在c盘的user文件夹下找对应用户→.ssh文件夹中的id_rsa.pub→粘贴出来
+4.GitHub→setting→SSH and GPG keys→复制到SSH key中
+5.git clone ssh地址→问yes or no手动写yes
+6.cd test（test是项目名）
+7.ls 123.txt（选中要上传的文加）
+8.git push，这样就上传上去啦
